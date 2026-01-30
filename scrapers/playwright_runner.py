@@ -12,7 +12,6 @@ BRAND_URLS = {
     "adidas": "https://www.myntra.com/adidas",
     "hrx": "https://www.myntra.com/hrx",
 }
-time.sleep(5)
 
 KEYWORD_URLS = {
     "tshirt": "https://www.myntra.com/tshirt?rawQuery=tshirt",
@@ -134,13 +133,22 @@ def write_csv(path, rows):
         writer.writeheader()
         writer.writerows(rows)
 
-
+def safe_goto(page, url, retries=3):
+    for attempt in range(retries):
+        try:
+            page.goto(url, timeout=90000, wait_until="domcontentloaded")
+            page.wait_for_selector("li.product-base", timeout=20000)
+            return True
+        except Exception as e:
+            print(f"   ⚠️ goto failed ({attempt+1}/{retries}): {e}")
+            time.sleep(6)
+    return False
 # ---------------- MAIN ---------------- #
 
 def run():
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=True,
+            headless=False,
             args=["--disable-http2"]
             )
         context = browser.new_context(
@@ -157,20 +165,14 @@ def run():
         # -------- Brands -------- #
         for brand, url in BRAND_URLS.items():
             print(f"\n🔵 Scraping brand: {brand}")
-            def safe_goto(page, url, retries=3):
-                for attempt in range(retries):
-                    try:
-                        page.goto(url, timeout=60000, wait_until="domcontentloaded")
-                        return True
-                    except Exception as e:
-                        print(f"   ⚠️ goto failed ({attempt+1}/{retries}): {e}")
-                        time.sleep(5)
-                        return False
+            if not safe_goto(page, url):
+                print("   ❌ Skipping:", url)
+                continue
 
-            time.sleep(3)
-
+            time.sleep(4)
             cards = scroll_until_loaded(page)
 
+                    
             rows = []
             for card in cards[:TARGET_COUNT]:
                 rows.append(extract_product(card, "brand"))
