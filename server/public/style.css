@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background: #f5f7fa;
+}
+
+h1 {
+  color: #222;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #222;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
