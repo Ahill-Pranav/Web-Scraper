@@ -1,59 +1,31 @@
 product_id,brand,product_name,image_url,selling_price,mrp_price,discount_percent,rating,comment_count,listing_type,source_page
-27043506,CAVA,Mock Collar Sporty Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/27043506/2024/9/2/88cc6b46-0c41-4d30-a0a7-a925783d271e1725265272042-CAVA-Mandarin-Collar-Crop-Sporty-Sculptor-Jacket-57117252652-1.jpg",Rs. 1559,Rs. 2599,(40% OFF),4.7,"|
-887",Advertisement,keyword
-31014875,StyleCast,Men Tailored Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/24/tjlztGaF_822d160dea33450c94a27cc17dfdaf4c.jpg",Rs. 1462,Rs. 3849,(62% OFF),3.5,"|
-2.5k",Advertisement,keyword
-33029103,StyleCast x Revolte,Girls Solid Bomber Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/3/P18FdezI_3df2c9c0b27448e7aabf27c6712e22d6.jpg",Rs. 1699,Rs. 3399,(50% OFF),3.8,"|
-20",Organic,keyword
-26700650,INCLUD,Boys Hooded Tailored Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26700650/2023/12/28/43354ad2-cd3e-42c5-b861-c310a15519b91703746873915INCLUDBoysBrownLightweightQuiltedJacket1.jpg",Rs. 959,Rs. 1999,(52% OFF),4.6,"|
-429",Organic,keyword
-27972066,StyleCast,Crop Biker Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/23/QqSEPY4g_b3bd62240cb049d383441bde00ca996c.jpg",Rs. 997,Rs. 2849,(65% OFF),3.9,"|
-1.3k",Advertisement,keyword
-36039150,YK,Girls Hooded Sherpa Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/28/aI6Z77iv_f3c99d0ad53e4d3f8036386aaabfb536.jpg",Rs. 1121,Rs. 3299,(66% OFF),4.1,"|
-133",Organic,keyword
-36871762,A A ENTERPRISES,Woven Design Nehru Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/9/WQev2Vwd_6666232a3ab2460da023d4b2d944d45e.jpg",Rs. 885,Rs. 1999,(56% OFF),2.6,"|
-18",Organic,keyword
-26130150,Campus Sutra,Windcheater Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26130150/2023/11/29/c208c973-87ef-4844-81c7-9ee664c7f4251701256265224CampusSutraMenTanSuedeWindcheaterOutdoorBikerJacket1.jpg",Rs. 1574,Rs. 3499,(55% OFF),4,"|
-3.5k",Advertisement,keyword
-37411473,Alan Jones,Mock Collar Tailored Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/9/ynB5fJ07_acfbc03b48724be5a50259dd48050837.jpg",Rs. 635,Rs. 1999,(68% OFF),4.5,"|
-150",Organic,keyword
-14468572,Decathlon,Men Non-Hooded Puffer Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14468572/2025/7/11/d495e83a-37aa-4b96-a735-1271bdcaa1161752230303780-FORCLAZ-By-Decathlon-Men-Solid-Black-Upto--0-Degrees-Non-Hoo-1.jpg",Rs. 1249,Rs. 1699,(26% OFF),4.4,"|
-7.2k",Organic,keyword
-24515724,VERO AMORE,Windcheater Parka Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/24515724/2023/8/16/cb743416-90d6-4153-b151-5b0f3c4041f61692193547496VEROAMOREWomenGreyFloralWindcheaterCropParkaJacket1.jpg",Rs. 1533,Rs. 3750,(59% OFF),4,"|
-562",Advertisement,keyword
-37884685,FOREVER FRIDAY,Boys Quilted Bomber Jacket,,Rs. 1175,Rs. 2799,(58% OFF),4,"|
-20",Organic,keyword
-36932379,FTX,Men Printed Bomber Jacket,,Rs. 570,Rs. 2330,(Rs. 1760 OFF),4.2,"|
-1.2k",Organic,keyword
+27043506,CAVA,Mock Collar Sporty Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/27043506/2024/9/2/88cc6b46-0c41-4d30-a0a7-a925783d271e1725265272042-CAVA-Mandarin-Collar-Crop-Sporty-Sculptor-Jacket-57117252652-1.jpg",Rs. 1559,Rs. 2599,(40% OFF),4.7,887,Advertisement,keyword
+31014875,StyleCast,Men Tailored Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/24/tjlztGaF_822d160dea33450c94a27cc17dfdaf4c.jpg",Rs. 1462,Rs. 3849,(62% OFF),3.5,2.5k,Advertisement,keyword
+37668203,STIL O STITCH,Jacket Solid,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/rpRDnSQF_5fdf74e2e7e34ee197b17926104fc891.jpg",Rs. 1105,Rs. 3990,(72% OFF),,,Organic,keyword
+37668198,STIL O STITCH,Geometric Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/0DG1TAh5_73c1e0816c8846abb77cca3d15de42cd.jpg",Rs. 999,Rs. 2599,(62% OFF),,,Organic,keyword
+27972066,StyleCast,Crop Biker Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/23/QqSEPY4g_b3bd62240cb049d383441bde00ca996c.jpg",Rs. 997,Rs. 2849,(65% OFF),3.9,1.3k,Advertisement,keyword
+37668205,STIL O STITCH,Floral Embroidered Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/0j6CT3dT_0aa1d3287f5849e6bb11d377e124f419.jpg",Rs. 1105,Rs. 3990,(72% OFF),,,Organic,keyword
+37668201,STIL O STITCH,Print Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/t3VGvSt5_f13aee1b541c4e9a869980a45d38ea6b.jpg",Rs. 1336,Rs. 3990,(67% OFF),,,Organic,keyword
+26130150,Campus Sutra,Windcheater Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26130150/2023/11/29/c208c973-87ef-4844-81c7-9ee664c7f4251701256265224CampusSutraMenTanSuedeWindcheaterOutdoorBikerJacket1.jpg",Rs. 1574,Rs. 3499,(55% OFF),4,3.5k,Advertisement,keyword
+37668197,STIL O STITCH,Floral Embroidered Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/nUgln27x_f6251575876040f78f1a546acfa0beea.jpg",Rs. 1592,Rs. 5590,(72% OFF),,,Organic,keyword
+37668200,STIL O STITCH,Embroidered Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/30/fWDNjmgZ_00c28f7ce7784b19b9d6c3ffda03e7ae.jpg",Rs. 999,Rs. 3590,(72% OFF),,,Organic,keyword
+24515724,VERO AMORE,Windcheater Parka Jacket,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/24515724/2023/8/16/cb743416-90d6-4153-b151-5b0f3c4041f61692193547496VEROAMOREWomenGreyFloralWindcheaterCropParkaJacket1.jpg",Rs. 1533,Rs. 3750,(59% OFF),4,562,Advertisement,keyword
+37668204,STIL O STITCH,Floral Embroidered Jacket,,Rs. 1105,Rs. 3990,(72% OFF),,,Organic,keyword
+1992582,Wintage,Nehru Jacket,,Rs. 1989,Rs. 3669,(46% OFF),4.4,442,Organic,keyword
 37509955,One Friday,Lightweight Open Front Jacket,,Rs. 1599,Rs. 3199,(50% OFF),,,Advertisement,keyword
-31426419,StyleCast x Revolte,Men Solid Leather Jacket,,Rs. 2141,Rs. 5099,(58% OFF),4.1,"|
-1.3k",Organic,keyword
+30912925,INCLUD,Boys Varsity Jacket,,Rs. 674,Rs. 1499,(55% OFF),4.3,51,Organic,keyword
 39282182,YK,Puffer Jacket with Embroidered,,Rs. 1072,Rs. 2899,(63% OFF),,,Organic,keyword
-32941913,VASTRAMAY,Embroidered Woven Nehru Jacket,,Rs. 1899,Rs. 2499,(24% OFF),4.3,"|
-104",Advertisement,keyword
-21804232,Jompers,Woven Design Nehru Jacket,,Rs. 895,Rs. 3199,(72% OFF),4.3,"|
-932",Organic,keyword
-37411470,Alan Jones,Mock Collar Tailored Jacket,,Rs. 626,Rs. 1999,(69% OFF),4.5,"|
-151",Organic,keyword
-37683900,Nifty,Crop Denim Jacket,,Rs. 789,Rs. 1999,(Rs. 1210 OFF),3.8,"|
-189",Advertisement,keyword
-24293222,U.S. Polo Assn. Kids,Boys Solid Puffer Jacket,,Rs. 2034,Rs. 3699,(45% OFF),4.3,"|
-297",Organic,keyword
-36039131,YK,Girls Hooded Sherpa Jacket,,Rs. 664,Rs. 1899,(65% OFF),3.1,"|
-55",Organic,keyword
-36266817,Hopscotch,Kids-Unisex Jackets,,Rs. 747,Rs. 2199,(66% OFF),4,"|
-7",Advertisement,keyword
-21804242,Jompers,Woven Design Nehru Jacket,,Rs. 895,Rs. 3199,(72% OFF),4.3,"|
-933",Organic,keyword
-1992582,Wintage,Nehru Jacket,,Rs. 1989,Rs. 3669,(46% OFF),4.4,"|
-442",Organic,keyword
-37891503,Campus Sutra,Corduroy Lightweight Bomber Jacket,,Rs. 1574,Rs. 3499,(55% OFF),4.6,"|
-54",Advertisement,keyword
-36828782,TRENDY WORLD,Boys Hooded Puffer Jacket,,Rs. 763,Rs. 1798,(58% OFF),4.6,"|
-34",Organic,keyword
-26218208,Jompers,Woven Design Nehru Jacket,,Rs. 1194,Rs. 2999,(60% OFF),4,"|
-125",Organic,keyword
-31253147,Campus Sutra,Men Solid Bomber Jacket,,Rs. 1574,Rs. 3499,(55% OFF),4,"|
-524",Advertisement,keyword
-30912925,INCLUD,Boys Varsity Jacket,,Rs. 674,Rs. 1499,(55% OFF),4.3,"|
-51",Organic,keyword
+32941913,VASTRAMAY,Embroidered Woven Nehru Jacket,,Rs. 1899,Rs. 2499,(24% OFF),4.3,104,Advertisement,keyword
+24774434,Anouk,Embroidered Nehru Jacket,,Rs. 1450,Rs. 4664,(69% OFF),4.2,287,Organic,keyword
+32961540,SOJANYA,Embroidered Nehru Jacket,,Rs. 1867,Rs. 5996,(69% OFF),3.3,106,Organic,keyword
+37683900,Nifty,Crop Denim Jacket,,Rs. 789,Rs. 1999,(Rs. 1210 OFF),3.8,189,Advertisement,keyword
+33827836,Jompers,Men Cotton Linen Nehru Jackets,,Rs. 1025,Rs. 3799,(Rs. 2774 OFF),4.4,131,Organic,keyword
+24774428,Anouk,Embroidered Nehru Jacket,,Rs. 1450,Rs. 4664,(69% OFF),4.2,286,Organic,keyword
+37891503,Campus Sutra,Corduroy Lightweight Bomber Jacket,,Rs. 1574,Rs. 3499,(55% OFF),4.6,54,Advertisement,keyword
+24774430,Anouk,Embroidered Nehru Jacket,,Rs. 1450,Rs. 4664,(69% OFF),4.2,288,Organic,keyword
+35847851,Jompers,Embroidered Nehru Jacket,,Rs. 959,Rs. 3999,(76% OFF),4.5,144,Organic,keyword
+31253147,Campus Sutra,Men Solid Bomber Jacket,,Rs. 1574,Rs. 3499,(55% OFF),4,524,Advertisement,keyword
+30751379,SPYKAR,Puffer Jacket,,Rs. 1799,Rs. 4999,(64% OFF),4.3,55,Organic,keyword
+39200165,Cantabil,Lightweight Jacket,,Rs. 1599,Rs. 3999,(60% OFF),3.2,5,Organic,keyword
+32302328,Monte Carlo,Boys Casual Tailored Jacket,,Rs. 1977,Rs. 3595,(45% OFF),4.7,17,Advertisement,keyword
+30928906,Pepe Jeans,Jacket,,Rs. 1499,Rs. 2999,(50% OFF),4.1,14,Organic,keyword

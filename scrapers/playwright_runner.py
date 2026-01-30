@@ -62,7 +62,9 @@ def extract_product(card, source_page):
     discount = safe_text(card, ".product-discountPercentage")
 
     rating = safe_text(card, ".product-ratingsContainer span")
-    comment_count = safe_text(card, ".product-ratingsCount")
+    raw_count = safe_text(card, ".product-ratingsCount")
+    comment_count = raw_count.replace("|", "").strip() if raw_count else None
+
 
     # advertisement detection
     listing_type = "Advertisement"
