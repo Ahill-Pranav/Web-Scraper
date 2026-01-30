@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import csv
 from pathlib import Path
+from selenium.webdriver.chrome.service import Service
 
 # ---------------- CONFIG ---------------- #
 
@@ -37,7 +38,10 @@ def start_driver():
     opts = Options()
     opts.add_argument("--disable-http2")
     opts.add_argument("--start-maximized")
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opts)
+
+    service = Service(ChromeDriverManager().install())
+
+    driver = webdriver.Chrome(service=service, options=opts)
     driver.set_page_load_timeout(90)
     return driver
 
