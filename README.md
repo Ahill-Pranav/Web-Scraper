@@ -1,31 +1,48 @@
-🛍️ Myntra Scraper Suite — Playwright + Selenium + Node.js Dashboard
+🛍️ Myntra Scraper Suite
+
+Playwright + Selenium + Node.js Dashboard
 
 A full-stack web automation project that scrapes Myntra brand and keyword listing pages using Playwright and Selenium, exports structured CSV datasets, and visualizes results via a Node.js dashboard.
+
+This project was built for technical evaluation rounds to demonstrate:
+
+DOM inspection
+
+Dynamic scraping
+
+Advertisement detection
+
+Infinite scrolling
+
+Lazy-loaded image handling
+
+Multi-framework automation
+
+Data engineering
+
+Visualization
 
 📌 Features
 🔵 Python Scrapers
 
-Playwright automation (primary)
+Playwright (primary)
 
-Selenium automation (secondary)
+Selenium (secondary)
 
 Infinite scroll handling
 
-Retry + throttling logic
+Retry-based navigation
 
-Anti-bot evasion (UA spoofing, pacing, HTTP/2 disable)
+Lazy-loaded image hydration
 
-Advertisement vs Organic detection
+Advertisement vs Organic classification
 
-DOM-based product ID extraction
+DOM-based extraction
 
-Robust selector handling
-
-CSV exports
+CSV export
 
 🟢 Supported Pages
-
-Brand pages:
+Brand Pages
 
 Levi’s
 
@@ -37,7 +54,7 @@ Adidas
 
 HRX
 
-Keyword pages:
+Keyword Pages
 
 T-shirts
 
@@ -53,26 +70,22 @@ Jackets
 
 Lists all CSV outputs
 
-Shows row counts
+Preview tables
 
-Click-to-preview tables
+Row counts
 
-Highlights Ads vs Organic
-
-Reads both Playwright & Selenium outputs
+Supports both Playwright & Selenium outputs
 
 📁 Project Structure
 Web-Scraper/
 │
 ├── scrapers/
 │   ├── playwright_runner.py
-│   ├── playwright_debug.py
 │   ├── selenium_runner.py
 │
 ├── outputs/
 │   ├── brand_nike.csv
-│   ├── keyword_shoes.csv
-│   └── ...
+│   └── keyword_shoes.csv
 │
 ├── outputs_selenium/
 │   └── ...
@@ -91,14 +104,15 @@ Web-Scraper/
 
 ⚙️ Tech Stack
 Layer	Technology
-Scraping	Python, Playwright, Selenium
-Browser Driver	Chromium, ChromeDriver
-Data Export	CSV
-Dashboard	Node.js, Express
-Parsing	csv-parser
-🧪 Data Extracted
+Automation	Python
+Browsers	Playwright, Selenium
+Parsing	DOM / CSS selectors
+Output	CSV
+Visualization	Node.js, Express
+Dashboard Parsing	csv-parser
+📊 Data Extracted
 
-Each CSV contains:
+Each product record contains:
 
 product_id
 brand
@@ -112,150 +126,133 @@ comment_count
 listing_type
 source_page
 
-🚀 Setup Instructions
-🐍 Python Environment
+📄 Scraping Strategy & Execution Guide
+🔍 DOM Selectors Used
 
-Create and activate venv:
+All data is collected directly from Myntra’s listing page DOM (no PDP navigation).
+
+📦 Product Card Container
+li.product-base
+
+📊 Field Selectors
+Field	Selector / Source
+Brand	.product-brand
+Product Name	.product-product
+Selling Price	.product-discountedPrice OR .product-price
+MRP	.product-strike
+Discount	.product-discountPercentage
+Rating	.product-ratingsContainer span
+Review Count	.product-ratingsCount
+Product ID	<li id="...">
+Image URL	<picture><source srcset> OR <img src/data-src>
+
+Images are lazy-loaded, so each product card is scrolled into view before extraction.
+
+🟡 Advertisement vs Organic Detection
+
+Sponsored products are identified purely from the DOM.
+
+If a card contains:
+
+.product-waterMark
+
+
+with visible text:
+
+AD
+
+
+➡ classified as Advertisement
+
+Otherwise ➝ Organic
+
+No hardcoded values were used — detection is fully DOM-based.
+
+🔄 Infinite Scrolling Strategy
+
+Myntra loads products dynamically.
+
+The scraper:
+
+1️⃣ Counts visible product cards
+2️⃣ Scrolls to bottom using:
+
+window.scrollTo(0, document.body.scrollHeight)
+
+
+3️⃣ Waits for new cards
+4️⃣ Recounts
+5️⃣ Repeats until ≥ 40 products are loaded or count stops increasing
+
+Additionally:
+
+• Each card is scrolled into view
+• Short waits allow image hydration
+• Prevents missing lazy-loaded images
+
+▶️ How to Run the Project
+🐍 Python Setup
+
+Create and activate environment:
 
 python -m venv .venv
-source .venv/bin/activate   # Mac/Linux
-.venv\Scripts\Activate.ps1  # Windows
+.venv\Scripts\Activate.ps1
 
 
-Install deps:
+Install dependencies:
 
 pip install playwright selenium webdriver-manager pandas requests beautifulsoup4
 playwright install
 
-🌐 Node.js Setup
-
-Inside server/:
-
-npm install express csv-parser
-
-▶️ How to Run
-▶️ Playwright Runner
-
-From project root:
-
+▶️ Run Playwright Scraper
 python scrapers/playwright_runner.py
 
 
-Generates:
+Outputs:
 
 outputs/
- ├ brand_*.csv
- └ keyword_*.csv
 
-▶️ Selenium Runner
+▶️ Run Selenium Scraper
 python scrapers/selenium_runner.py
 
 
-Generates:
+Outputs:
 
 outputs_selenium/
 
-▶️ Node Dashboard
+▶️ Run Node.js Dashboard
 cd server
+npm install express csv-parser
 node server.js
 
 
-Open:
+Open browser:
 
 👉 http://localhost:3000
 
-🧠 Key Design Decisions
-✔ Infinite Scroll Strategy
+🧠 Key Engineering Decisions
 
-Scroll to bottom
+DOM-first scraping (no APIs)
 
-Wait 1 second
+No PDP navigation
 
-Recount cards
+Retry-based page loading
 
-Stop after stagnation or 30 items
+Lazy image hydration
 
-✔ Advertisement Detection
+srcset parsing
 
-Uses DOM watermark:
+Multi-framework implementation
 
-.product-waterMark → "AD"
+Clean CSV schema for analysis
 
-✔ Product ID
-
-Extracted directly from:
-
-<li id="34807146" class="product-base">
-
-✔ Anti-Blocking Measures
-
-Realistic user-agent
-
-Retry navigation
-
-Delay between pages
-
-HTTP/2 disabled
-
-Headless off for debugging
-
-📄 Selector Strategy
-
-Selectors are documented in:
-
-docs/SELECTORS.md
-
-
-Includes:
-
-Card containers
-
-Price fields
-
-Ratings
-
-Ad markers
-
-CSV schema
-
-🧑‍💻 Debug Utilities
-
-playwright_debug.py is used for:
-
-Testing selectors
-
-DOM inspection
-
-Screenshot capture
-
-Diagnosing blocks
-
-🏆 What This Demonstrates
-
-This project showcases:
-
-Browser automation
-
-DOM inspection
-
-Robust scraping pipelines
-
-Multi-framework skill (Playwright + Selenium)
-
-Retry & throttling systems
-
-Data engineering
-
-Full-stack integration
-
-Documentation discipline
+Visualization layer for validation
 
 ⚠️ Disclaimer
 
-This project is built for educational and evaluation purposes only.
-Respect website terms of service when scraping.
+This project is for educational and evaluation purposes only.
+Always respect website terms of service.
 
 🙌 Author
 
 Built by Ahill Pranav
-For in-person automation / scraping evaluation rounds.

@@ -1,31 +1,41 @@
 product_id,brand,product_name,image_url,selling_price,mrp_price,discount_percent,rating,comment_count,listing_type,source_page
-38111869,U.S. Polo Assn.,Men Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/9/Ejmu6rQD_a81aeec49bbc43e8b5653873ec8cbc9f.jpg",Rs. 2599,Rs. 3999,(35% OFF),4.3,665,Advertisement,keyword
-36551276,Puma,Galaxis Pro Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/8/NNUOJkf4_eae0604368584f5d990e63895588c47b.jpg",Rs. 3499,Rs. 6999,(50% OFF),4.3,3.3k,Advertisement,keyword
-29553912,HRX by Hrithik Roshan,Unisex Back To School Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553912/2024/5/17/5f90bc0f-c248-4bff-8a88-54128a77c4a61715927218769HRXbyHrithikRoshanUnisexTexturedSneakers1.jpg",Rs. 3699,,,4.2,2.2k,Organic,keyword
-39600018,Actual choice,Embroidered Ballerinas,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/24/1kgRFfo1_6efde60cf73b4b32ad25ed0f29ec7ce5.jpg",Rs. 489,Rs. 1999,(76% OFF),,,Organic,keyword
-33384081,CULT,Men Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/33384081/2025/6/28/934c2543-b352-4ccf-80a9-c3cde7847e9a1751102947074-CULT-Men-Strix-Running-Shoes----BlackBlue-4831751102946582-1.jpg",Rs. 2799,Rs. 4069,(31% OFF),4.3,112,Advertisement,keyword
-39078575,HOOH Now Comfort in Fashion,Unisex Kids Colourblocked Sneakers,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/31/ryqpPIpu_e2eb12133834405bb7691383daa240cd.jpg",Rs. 590,Rs. 1299,(55% OFF),4,66,Organic,keyword
-30191547,WROGN,Men Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/28/2I3B3jca_f4bed344731645599970b95cea3efcc7.jpg",Rs. 1154,Rs. 3299,(65% OFF),3.8,25,Organic,keyword
-37904137,U.S. Polo Assn.,Men Walking Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/3/enpfhCBF_61b9e34606fe4299908485cd86ee4fdc.jpg",Rs. 2599,Rs. 3999,(35% OFF),3.6,129,Advertisement,keyword
-39317209,CORSICA,Party Slim Heeled Pumps with Bows,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/11/PpmcvfyM_f024040a52b64f958a2fcab35f090aff.jpg",Rs. 1305,Rs. 3999,(67% OFF),,,Organic,keyword
-24031396,HRX by Hrithik Roshan,Women Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/24031396/2023/7/15/1e2fc064-de69-4926-a5a5-4e9f1df7a3ec1689363715334SportsShoes1.jpg",Rs. 998,Rs. 2999,(67% OFF),4.3,15.6k,Organic,keyword
-32588864,Puma,Skyrocket Lite Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32588864/2025/2/5/1c559611-e3e6-4427-b2e8-e0ec0defe8a31738762112054-Puma-Skyrocket-Lite-Unisex-Running-Shoes-241738762111572-1.jpg",Rs. 2999,Rs. 4999,(40% OFF),4.3,267,Advertisement,keyword
-2612778,Red Chief,Leather Casual Shoes,,Rs. 2088,Rs. 5299,(61% OFF),4.3,1.3k,Organic,keyword
-26176822,Roadster,Women Zippered Boots,,Rs. 1229,Rs. 4699,(74% OFF),4.2,2k,Organic,keyword
-32595435,ONYC,Unisex Kids Colourblocked PU High-Top Sneakers,,Rs. 798,Rs. 1299,(39% OFF),4.7,175,Advertisement,keyword
-36820976,Sole Saga,Block Mary Janes with Buckles,,Rs. 794,Rs. 3299,(76% OFF),4.5,677,Organic,keyword
-39317208,CORSICA,Stiletto Pumps with Bows,,Rs. 1305,Rs. 3999,(67% OFF),,,Organic,keyword
-34807146,Nike,3 Next Nature Workout Shoes,,Rs. 3996,Rs. 4995,(20% OFF),4.4,221,Advertisement,keyword
-32085906,HRX by Hrithik Roshan,Unisex Running Shoes,,Rs. 1116,Rs. 2999,(63% OFF),4.3,3.2k,Organic,keyword
-31720914,Bata,Men Leather Formal Slip-Ons,,Rs. 692,Rs. 1099,(37% OFF),4.3,370,Organic,keyword
-33397117,Killer,Men Formal Derbys,,Rs. 744,Rs. 3299,(77% OFF),3.8,136,Advertisement,keyword
-33431319,Provogue,Men Leather Formal Derbys,,Rs. 744,Rs. 3299,(77% OFF),4.1,1.3k,Organic,keyword
-34735867,max,Solid Slip-On Mary Janes,,Rs. 489,Rs. 699,(30% OFF),4.2,16,Organic,keyword
-38100206,NEEMANS,Men Woven Design Sneakers,,Rs. 1199,Rs. 2299,(48% OFF),4.1,49,Advertisement,keyword
-39394855,FACE,Men Textured Sneakers,,Rs. 727,Rs. 999,(27% OFF),,,Organic,keyword
-34314947,Stylestry,Women Block-Heeled Biker Boots,,Rs. 606,Rs. 1999,(Rs. 1393 OFF),4.4,129,Organic,keyword
-31804118,Red Chief,Men Leather Derby Formal Shoes,,Rs. 1750,Rs. 5599,(69% OFF),4.1,168,Advertisement,keyword
-38293795,Shozie,Girls Sneakers,,Rs. 489,Rs. 999,(51% OFF),3.7,6,Organic,keyword
-31720923,Bata,Men Leather Formal Derbys,,Rs. 753,Rs. 1299,(42% OFF),3.8,425,Organic,keyword
-38178651,KazarMax,Girls Sneakers,,Rs. 1199,Rs. 2499,(52% OFF),4.6,1k,Advertisement,keyword
-32085910,HRX by Hrithik Roshan,Unisex Running Shoes,,Rs. 1116,Rs. 2999,(63% OFF),4.3,3.1k,Organic,keyword
+18917450,Red Chief,Leather Formal Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18917450/2025/1/18/ce9457b2-4ce5-4927-b9bb-67ccdaac02341737205587127-Red-Chief-Men-Black-Solid-Leather-Formal-Loafers-55117372055-1.jpg",Rs. 1655,Rs. 4199,(61% OFF),4.2,399,Advertisement,keyword
+34294785,Roadster,Men Casual Chelsea Boots,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/19/AyZm4UtZ_5eb3c1aff7334b53b21d71ce67529b37.jpg",Rs. 844,Rs. 6495,(Rs. 5651 OFF),4.1,2.1k,Advertisement,keyword
+30396659,ASIAN,Men Colourblocked Sneakers,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/JULY/29/6xDjrKNT_1c000df180b841b690cd7ac98984e554.jpg",Rs. 849,Rs. 1499,(43% OFF),4,12.7k,Organic,keyword
+32085909,HRX by Hrithik Roshan,Unisex Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/32085909/2024/12/25/4c510416-5c4b-43df-ad55-fc93e029b1001735144273519UnisexComfortableRunningShoes1.jpg",Rs. 869,Rs. 2999,(Rs. 2130 OFF),4.3,3.2k,Organic,keyword
+38324410,Campus,Men Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/NOVEMBER/29/co5k9zfl_3533c9e7db264e1fbe5d573ca60e90bb.jpg",Rs. 1899,Rs. 3499,(46% OFF),4.3,54,Advertisement,keyword
+36076032,YONEX,HYULTRAI Badminton Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/29/mnRIBf03_95e4c7b98b2f4567bb9f1b1a6d29dff1.jpg",Rs. 1899,Rs. 2790,(Rs. 891 OFF),4.2,84,Organic,keyword
+30834832,Anouk,Men Slip-On Formal Loafers,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/SEPTEMBER/3/paioXPum_7bbbdd2c194546c48db078ae975e880f.jpg",Rs. 707,Rs. 2830,(Rs. 2123 OFF),4.1,259,Organic,keyword
+34572439,Roadster,Block-Heeled Chelsea Boots,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/30/QQsDSx93_ab2e7f766d5f45a5866d3afe442d9836.jpg",Rs. 949,Rs. 4999,(Rs. 4050 OFF),3.9,1.2k,Advertisement,keyword
+39641990,Forever Glam by Pantaloons,Women Open Toe Flats,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JANUARY/27/079JNSSB_312c50848ff243869d6983494755f3e5.jpg",Rs. 599,,,,,Organic,keyword
+23976344,HRX by Hrithik Roshan,Women Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23976344/2023/7/11/cf6d6b67-186a-444a-a2a7-49afebad8a0c1689091586156HRXbyHrithikRoshanWomenOffWhiteMeshRunningNon-MarkingShoes1.jpg",Rs. 987,Rs. 3799,(Rs. 2812 OFF),4.3,9.1k,Organic,keyword
+38382270,House of Pataudi,Men Round Toe Slip-On Loafers,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/2/AitstJrg_2eae3bfb440940cca88ced021eb8fd1f.jpg",Rs. 1749,Rs. 4995,(65% OFF),,,Advertisement,keyword
+31720914,Bata,Men Leather Formal Slip-Ons,,Rs. 681,Rs. 1099,(38% OFF),4.3,397,Organic,keyword
+28489280,INVICTUS,Men Round Toe Slip On Loafers,,Rs. 834,Rs. 3795,(Rs. 2961 OFF),4.2,1.5k,Organic,keyword
+14149608,HRX by Hrithik Roshan,Men Propulsion Running Shoes,,Rs. 1819,Rs. 6999,(74% OFF),4.3,145,Advertisement,keyword
+29859280,ASIAN,Men Round Toe Sneakers,,Rs. 849,Rs. 1499,(43% OFF),4,12.7k,Organic,keyword
+39695381,Get Glamr,Gold Pointed Toe Slingback,,Rs. 1664,Rs. 2999,(45% OFF),,,Organic,keyword
+36771942,Roadster,Black Chelsea Boots,,Rs. 909,Rs. 6995,(Rs. 6086 OFF),4.1,268,Advertisement,keyword
+31188159,ASIAN,Men Colourblocked Sneakers,,Rs. 679,Rs. 1499,(55% OFF),4,2.5k,Organic,keyword
+30191547,WROGN,Men Running Shoes,,Rs. 1121,Rs. 3299,(66% OFF),3.8,25,Organic,keyword
+39029144,INVICTUS,Men Formal Oxfords,,Rs. 1079,Rs. 5995,(Rs. 4916 OFF),,,Advertisement,keyword
+29553912,HRX by Hrithik Roshan,Unisex Back To School Shoes,,Rs. 924,Rs. 3699,(Rs. 2775 OFF),4.2,2.2k,Organic,keyword
+30061655,HRX by Hrithik Roshan,Men Running Shoes,,Rs. 899,Rs. 4499,(Rs. 3600 OFF),4,10k,Organic,keyword
+37872946,HRX by Hrithik Roshan,Women Training or Gym Shoes,,Rs. 959,Rs. 4999,(81% OFF),4.5,83,Advertisement,keyword
+39461782,Roadster,Round Toe Wedge Sandals Heels,,Rs. 662,Rs. 2999,(78% OFF),,,Organic,keyword
+37744191,Skechers,GO RUN ELEVATE Running Shoes,,Rs. 2999,Rs. 5999,(50% OFF),4.6,13,Organic,keyword
+29574716,MICHAEL ANGELO,Men Textured Derbys,,Rs. 999,Rs. 2999,(67% OFF),3.7,17,Advertisement,keyword
+36674136,Puma,Softride Harli Hybrid Shoes,,Rs. 2099,Rs. 5999,(65% OFF),4.6,101,Organic,keyword
+26264106,Anouk,Men Textured Formal Monk Shoes,,Rs. 779,Rs. 1999,(Rs. 1220 OFF),3.8,13,Organic,keyword
+31251239,House of Pataudi,Men Textured Formal Derbys,,Rs. 1258,Rs. 3595,(Rs. 2337 OFF),3.9,51,Advertisement,keyword
+30655108,Denill,Women Open Toe Flats,,Rs. 351,Rs. 2499,(86% OFF),4.2,5.3k,Organic,keyword
+39641566,Pantaloons Junior,Boys Colourblocked PU Sneakers,,Rs. 999,,,,,Organic,keyword
+38635983,Roadster,Men Lace-Ups Sneakers,,Rs. 1169,Rs. 6495,(Rs. 5326 OFF),3.2,44,Advertisement,keyword
+37155994,Red Tape,Colourblocked Round Toe Shoes,,Rs. 991,Rs. 6199,(84% OFF),4.5,840,Organic,keyword
+38961647,YONEX,HYULTRAI Badminton Shoes,,Rs. 1899,Rs. 2790,(Rs. 891 OFF),4.2,86,Organic,keyword
+33384081,CULT,Men Running Shoes,,Rs. 2619,Rs. 4069,(36% OFF),4.3,112,Advertisement,keyword
+23187400,ASIAN,Women Running Shoes,,Rs. 725,Rs. 1499,(52% OFF),4.3,2.4k,Organic,keyword
+32455978,ONYC,Unisex Kids Fashion,,Rs. 473,Rs. 899,(Rs. 426 OFF),4.6,1.1k,Organic,keyword
+39554080,HRX by Hrithik Roshan,Men Training or Gym Shoes,,Rs. 799,Rs. 4999,(84% OFF),4.3,15,Advertisement,keyword
+39641564,Pantaloons Junior,Girls Colourblocked PU Sneakers,,Rs. 999,,,,,Organic,keyword
+26209128,ASIAN,Men Lace-Up Sneakers,,Rs. 644,Rs. 1499,(57% OFF),4.1,12.2k,Organic,keyword

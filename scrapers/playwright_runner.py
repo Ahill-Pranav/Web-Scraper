@@ -22,13 +22,22 @@ KEYWORD_URLS = {
 }
 
 PRODUCT_SELECTOR = "li.product-base"
-TARGET_COUNT = 30
+TARGET_COUNT = 40
 
 OUT_DIR = Path("outputs")
 OUT_DIR.mkdir(exist_ok=True)
 
 
 # ---------------- HELPERS ---------------- #
+def hydrate_card_image(page, card):
+    try:
+        page.evaluate(
+            "(el) => el.scrollIntoView({behavior: 'instant', block: 'center'})",
+            card,
+        )
+        time.sleep(0.8)
+    except:
+        pass
 
 def safe_text(card, sel):
     try:
@@ -45,16 +54,30 @@ def extract_product(card, source_page):
     name = safe_text(card, ".product-product")
 
     image_url = None
+
+    # --- Try picture > source ---
     try:
-        img = card.query_selector("img")
-        if img:
-            image_url = (
-                img.get_attribute("src")
-                or img.get_attribute("data-src")
-                or img.get_attribute("data-srcset")
-            )
+        source = card.query_selector("picture source")
+        if source:
+            srcset = source.get_attribute("srcset")
+            if srcset:
+                image_url = srcset.split()[0]
     except:
         pass
+
+    # --- Fallback to img ---
+    if not image_url:
+        try:
+            img = card.query_selector("img")
+            if img:
+                image_url = (
+                    img.get_attribute("src")
+                    or img.get_attribute("data-src")
+                    or img.get_attribute("data-srcset")
+                )
+        except:
+            pass
+
 
     selling = safe_text(card, ".product-discountedPrice") or safe_text(card, ".product-price")
     mrp = safe_text(card, ".product-strike")
@@ -103,7 +126,7 @@ def scroll_until_loaded(page):
             return cards
 
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        time.sleep(1)
+        time.sleep(2)
 
         if count == prev:
             stalls += 1
@@ -176,8 +199,13 @@ def run():
 
                     
             rows = []
-            for card in cards[:TARGET_COUNT]:
-                rows.append(extract_product(card, "brand"))
+            for i, card in enumerate(cards[:TARGET_COUNT], 1):
+                hydrate_card_image(page, card)
+
+                row = extract_product(card, "brand")
+
+                rows.append(row)
+
 
             out_file = OUT_DIR / f"brand_{brand}.csv"
             write_csv(out_file, rows)

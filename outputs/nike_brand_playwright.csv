@@ -1,53 +1,73 @@
 product_id,brand,product_name,image_url,selling_price,mrp_price,discount_percent,rating,comment_count,listing_type,source_page
-34807146,Nike,3 Next Nature Workout Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/9/MYOt8vIL_0406e7b5ad3844528ef6864a954ada1c.jpg",Rs. 3996,Rs. 4995,(20% OFF),4.4,"|
-221",Advertisement,brand
-18800694,Nike,Men Flex Experience Running,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/4/2oH9ckB5_b650f1c38c2c4f8b96c209d2aed655d6.jpg",Rs. 3996,Rs. 4995,(20% OFF),4.3,"|
-4k",Advertisement,brand
-34807140,Nike,Women Lace-Up Workout Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/9/7GJO8mm2_da8e01546f8e4d778ae743fbbdfc29e7.jpg",Rs. 3996,Rs. 4995,(20% OFF),4.2,"|
-207",Organic,brand
-34955475,Nike,3 Next Nature Workout Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/16/DN0gbXke_65aaed74e93543cda25016a08ba141f2.jpg",Rs. 3996,Rs. 4995,(20% OFF),4.1,"|
-4k",Organic,brand
-38554701,Nike,Indy Light-Support Women Bra,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/10/84CulFr6_00d6ef64ea614b4c91b1b375f78d4c9b.jpg",Rs. 2063,Rs. 2195,(6% OFF),4.2,"|
+31180755,Nike,Women Tracksuit Bottoms,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/SEPTEMBER/30/8rboKIZc_3933f62366834038850b9a84970e3da6.jpg",Rs. 3795,,,4.7,"|
+49",Advertisement,brand
+38863504,Nike,Tempo Running Pants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/22/9VXaqngF_ec59c04c5372475f82a42964751ac878.jpg",Rs. 2956,Rs. 3695,(20% OFF),,,Advertisement,brand
+34807146,Nike,3 Next Nature Workout Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/9/MYOt8vIL_0406e7b5ad3844528ef6864a954ada1c.jpg",Rs. 3497,Rs. 4995,(30% OFF),4.4,"|
+227",Organic,brand
+34807140,Nike,Women Lace-Up Workout Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/9/7GJO8mm2_da8e01546f8e4d778ae743fbbdfc29e7.jpg",Rs. 3497,Rs. 4995,(30% OFF),4.2,"|
+215",Organic,brand
+36974655,Nike,Sportswear Phoenix Trackpants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/15/vYzjGf9n_d43ec0383c294120a63963ac1ee4a9e0.jpg",Rs. 3196,Rs. 3995,(20% OFF),4.4,"|
+24",Advertisement,brand
+27972500,Nike,Men Legend Essential 3 Next,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27972500/2024/3/1/b7c6ab92-6ecf-4711-9b45-a506f2894a4f1709294014452NikeLegendEssential3NextNatureMensWorkoutShoes1.jpg",Rs. 3996,Rs. 4995,(20% OFF),4.1,"|
+4.1k",Organic,brand
+38160183,Nike,Men's Road Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/NOVEMBER/22/snF7Bg5Y_41e2f6b39b0241b18dc3152c0fb526a0.jpg",Rs. 3695,,,4.7,"|
+23",Organic,brand
+36600779,Nike,Strike Men's Dri-FIT Pants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/25/QuZEKrGE_39d96440b6d24aa78790b56d0c0da313.jpg",Rs. 2217,Rs. 3695,(40% OFF),,,Advertisement,brand
+38160198,Nike,Road-Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/NOVEMBER/22/os45mVno_994d7011ff2f4148a3fa8ff46aa98b40.jpg",Rs. 3995,,,4.4,"|
+28",Organic,brand
+38362903,Nike,Women's Road Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/2/1XmpNPEp_b8bec4c29ecc47b78aacfa231a0b9e17.jpg",Rs. 3995,,,3.9,"|
+7",Organic,brand
+28965652,Nike,Zenvy Women's Dri-FIT Bodysuit,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/28965652/2024/4/16/d44bed42-4ece-487e-8497-8abbea59f1651713261649629NikeZenvyWomensDri-FITShortBodysuit1.jpg",Rs. 3297,Rs. 5495,(40% OFF),4.4,"|
+14",Advertisement,brand
+38362890,Nike,Women's Road Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/2/TP6FSDRv_d6541b2a5a514c05b910828273a67304.jpg",Rs. 3995,,,3.8,"|
+5",Organic,brand
+33477860,Nike,Run Defy Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/4/35tsxYXy_39ef113ec33f4c39a2d89953bc5be3f8.jpg",Rs. 3995,,,4.4,"|
+1.4k",Organic,brand
+32293976,Nike,Sportswear Phoenix Bottoms,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/32293976/2025/1/9/c254ce9a-82df-47f3-8442-097defc1d3021736440066276TrackPants1.jpg",Rs. 2657,Rs. 3795,(30% OFF),4.2,"|
+83",Advertisement,brand
+34955453,Nike,Run Defy Road-Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/16/4O8FgFbo_fff677420ffa45139e623a35f8dc87b5.jpg",Rs. 3596,Rs. 3995,(10% OFF),4.4,"|
+1.4k",Organic,brand
+35548279,Nike,Unisex Heritage 2.0 Tote Bag,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/11/BMLG1pj6_d85b57a2429f483e938ff94d9cafadaf.jpg",Rs. 1607,Rs. 2295,(30% OFF),5,"|
+5",Organic,brand
+37207657,Nike,Dri-FIT Stride Men's Shorts,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/26/3o1JFIga_70cca5c2ec0c4d329ee9b786f505b226.jpg",Rs. 2895,,,4.8,"|
 6",Advertisement,brand
-25503840,Nike,Men Next Nature Workout Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/25503840/2023/10/16/db142f36-9011-4774-8799-08f7685025b81697471896207NikeLegendEssentialMenWorkoutShoes1.jpg",Rs. 4995,,,4.1,"|
-4k",Organic,brand
-28423344,Nike,Legend Essential Workout Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28423344/2024/3/21/3f986608-5b6d-46ce-adfd-5fa3314dcfd91711043993283NikeLegendEssential3NextNatureWomensWorkoutShoes1.jpg",Rs. 4995,,,4.2,"|
-2k",Organic,brand
-28345466,Nike,Zenvy Women's Leggings,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28345466/2024/3/18/0ad26685-aefd-4903-878a-801942470da01710762782409NikeZenvyWomensGentle-SupportHigh-Waisted78Leggings1.jpg",Rs. 2748,Rs. 5495,(50% OFF),4.5,"|
-124",Advertisement,brand
-38160183,Nike,Men's Road Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/NOVEMBER/22/snF7Bg5Y_41e2f6b39b0241b18dc3152c0fb526a0.jpg",Rs. 3695,,,4.7,"|
-21",Organic,brand
-33477860,Nike,Run Defy Running Shoes,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/4/35tsxYXy_39ef113ec33f4c39a2d89953bc5be3f8.jpg",Rs. 3995,,,4.4,"|
-1.4k",Organic,brand
-30129733,Nike,Dri-FIT Full-Length Leggings,"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/30129733/2024/7/4/bc39f31a-7c1c-4208-9861-2f29f4751a7f1720095138827NikeOneSeamlessFrontWomensHigh-WaistedFull-LengthLeggings1.jpg",Rs. 2786,Rs. 3095,(10% OFF),4.4,"|
-278",Advertisement,brand
-34955453,Nike,Run Defy Road-Running Shoes,,Rs. 3875,Rs. 3995,(3% OFF),4.4,"|
-1.4k",Organic,brand
-38362903,Nike,Women's Road Running Shoes,,Rs. 3995,,,3.7,"|
-6",Organic,brand
-37382610,Nike,High-Waisted Leggings,,Rs. 2748,Rs. 5495,(50% OFF),,,Advertisement,brand
-27972500,Nike,Men Legend Essential 3 Next,,Rs. 4496,Rs. 4995,(10% OFF),4.1,"|
-4k",Organic,brand
-34199303,Nike,Run Defy Women's Running Shoes,,Rs. 3995,,,4.5,"|
-187",Organic,brand
-25097538,Nike,Men Dri-FIT Open-Hem Trousers,,Rs. 2795,,,3.9,"|
-716",Advertisement,brand
-38362890,Nike,Women's Road Running Shoes,,Rs. 3995,,,,,Organic,brand
-36731476,Nike,Run Defy Men Running Shoes,,Rs. 3596,Rs. 3995,(10% OFF),4.3,"|
-28",Organic,brand
-37839778,Nike,Zenvy High-Waisted Shorts,,Rs. 1848,Rs. 3695,(50% OFF),,,Advertisement,brand
-33477858,Nike,Run Defy Running Shoes,,Rs. 3995,,,4.4,"|
-1.4k",Organic,brand
-36731483,Nike,Downshifter 13 Men Shoes,,Rs. 3866,Rs. 4295,(10% OFF),4.3,"|
-87",Organic,brand
-37382608,Nike,One Seamless Front Leggings,,Rs. 2786,Rs. 3095,(10% OFF),,,Advertisement,brand
-38442267,Nike,Run Defy Women's Running Shoes,,Rs. 3995,,,,,Organic,brand
-28304778,Nike,Academy Football Shoe Bag,,Rs. 995,,,4.8,"|
-334",Organic,brand
-38549822,Nike,Men's Dri-FIT T-Shirt,,Rs. 1687,Rs. 1795,(6% OFF),,,Advertisement,brand
-25916858,Nike,Kids Cotton Baseball Cap,,Rs. 795,,,4.6,"|
+25916858,Nike,Kids Cotton Baseball Cap,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25916858/2023/11/17/8c67b892-f14b-4be4-b3f0-3e9658a45d5e1700212764896NikeClubKidsUnstructuredFuturaWashCap1.jpg",Rs. 795,,,4.6,"|
 85",Organic,brand
-38160198,Nike,Road-Running Shoes,,Rs. 3995,,,4.4,"|
+33477858,Nike,Run Defy Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/5/SunGIBXX_afb8a2eb146844bc8186cb021a2197c3.jpg",Rs. 3995,,,4.4,"|
+1.4k",Organic,brand
+37382951,Nike,Women's Woven Trackpants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/8/nuEKSnam_28b14c65d83d4fea9e706a8c7e44e38e.jpg",Rs. 3276,Rs. 4095,(20% OFF),,,Advertisement,brand
+36619104,Nike,Run Defy Women Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/27/WMtW7xku_65137d561ce340ada84c48b648146cf0.jpg",Rs. 3995,,,,,Organic,brand
+28304778,Nike,Academy Football Shoe Bag,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/28304778/2024/3/26/1a2e9ad8-ef6a-4c2c-bd88-735c76611ce31711453820931NikeAcademyFootballShoeBag1.jpg",Rs. 995,,,4.8,"|
+334",Organic,brand
+25504178,Nike,Dri-Fit Training Jackets,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25504178/2023/10/16/5bcba13c-7004-4b32-95e7-936b9d12536f1697459513330NikeDri-FITMensWovenTrainingJacket1.jpg",Rs. 3595,,,4.2,"|
+617",Advertisement,brand
+38756810,Nike,Run Defy Men's Road-Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/18/1swYTrI0_3112ffc42e84485ba88939d2cc231925.jpg",Rs. 3995,,,,,Organic,brand
+38756819,Nike,Run Defy Men's Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/18/pYTg3HJF_f86962bfdea14574a0e7ce2bb2f04b96.jpg",Rs. 3995,,,4.4,"|
+7",Organic,brand
+37286794,Nike,One Relaxed Women Trackpants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/1/UnSi5Ri9_b55de6fb293545eabcb5b2c5f9dbf6e5.jpg",Rs. 3196,Rs. 3995,(20% OFF),4.4,"|
+7",Advertisement,brand
+33144110,Nike,Heritage 2.0 Tote Bag (22L),"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/13/q7JoJxcJ_5b832574fa4c4470824743affb6fc3dc.jpg",Rs. 1995,,,4.3,"|
+24",Organic,brand
+30753887,Nike,Academy Football Gymsack (18L),"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/AUGUST/30/O0Td3iGk_923c0419195e419ba1e6fc92ae0485a8.jpg",Rs. 895,,,4.6,"|
+223",Organic,brand
+34955738,Nike,Women Training or Gym Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/16/o4cs101v_6052c1d6b41342a8a94048edbdcc0930.jpg",Rs. 7557,Rs. 10795,(30% OFF),4.7,"|
+87",Advertisement,brand
+38442267,Nike,Run Defy Women's Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/5/awBOPqn4_f5866ae4deee41e5a522d4bbc28224d3.jpg",Rs. 3995,,,,,Organic,brand
+34199303,Nike,Run Defy Women's Running Shoes,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/34199303/2025/6/23/4b6f4724-1b83-4c97-87a3-601c5b3ff7021750693251848-Nike-Run-Defy-Womens-Road-Running-Shoes-6031750693251302-1.jpg",Rs. 3995,,,4.5,"|
+187",Organic,brand
+36974661,Nike,Sportswear Windrunner Pant,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/15/Pqgcbtvl_05514dd505d24695824b563f53043adb.jpg",Rs. 3276,Rs. 4095,(20% OFF),4.3,"|
+6",Advertisement,brand
+35015242,Nike,Brand Logo Small Backpack,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/18/gyiwH8Ut_274ebd8f4303463c98be2cb9cc425102.jpg",Rs. 1747,Rs. 2495,(30% OFF),4.5,"|
+57",Organic,brand
+38214603,Nike,Club Kids' Unstructured Cap,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/NOVEMBER/24/7xQgmnuC_e7263bace07048e9b098385266701f63.jpg",Rs. 795,,,,,Organic,brand
+38374551,Nike,USMNT Authentic Men T-Shirt,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/2/5V41pXrh_b037a1f8ddff459581c540b056a6eaf0.jpg",Rs. 2997,Rs. 4995,(40% OFF),,,Advertisement,brand
+33109128,Nike,Sportswear Mini Backpack - 6 L,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/7/fgeYF6Nl_ee0b486849f0419fa531607582742a76.jpg",Rs. 1497,Rs. 2495,(40% OFF),4.5,"|
+57",Organic,brand
+35015236,Nike,Sportswear Futura 365 Backpack,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/18/T2a5LQRV_1eca3d6e0a97471e9d08c8f37f397143.jpg",Rs. 1596,Rs. 1995,(20% OFF),4.5,"|
+433",Organic,brand
+14644094,Nike,Women Dri-FIT Track Pants,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14644094/2023/12/18/f7e017ff-2abf-4f6c-ac3d-3c989fb5a7ef1702897905727-Nike-Women-Black-Colourblocked-Dri-FIT-Cropped-Running-Track-1.jpg",Rs. 2796,Rs. 3495,(20% OFF),4.3,"|
+352",Advertisement,brand
+33190362,Nike Fragrances,Men Casual Deodorant - 200 ml,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/13/43MJCmSa_53e889debe104a1aa1083930fa197ec3.jpg",Rs. 398,Rs. 429,(7% OFF),4.7,"|
+16",Organic,brand
+33190353,Nike Fragrances,Men EDT Deodorant- 200ml,"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/13/kXQQSQT5_fd6047b4c12e4b07859bfcb9035d58c2.jpg",Rs. 448,Rs. 519,(14% OFF),4.5,"|
 28",Organic,brand
-39234813,Nike,Jordan Sport Essentials TShirt,,Rs. 1593,Rs. 1695,(6% OFF),,,Advertisement,brand
-36618653,Nike,Sportswear Futura 365 Backpack,,Rs. 2246,Rs. 2495,(10% OFF),,,Organic,brand

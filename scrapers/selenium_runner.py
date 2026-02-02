@@ -97,11 +97,29 @@ def extract_product(card, source_page):
     brand = safe_text(card, ".product-brand")
     name = safe_text(card, ".product-product")
 
+    image_url = None
+
+# Try picture > source first (lazy-loaded)
     try:
-        img = card.find_element(By.TAG_NAME, "img")
-        image_url = img.get_attribute("src")
+        source = card.find_element(By.CSS_SELECTOR, "picture source")
+        srcset = source.get_attribute("srcset")
+        if srcset:
+            image_url = srcset.split(",")[0].split()[0]
     except:
-        image_url = None
+        pass
+
+    # Fallback to img attributes
+    if not image_url:
+        try:
+            img = card.find_element(By.TAG_NAME, "img")
+            image_url = (
+                img.get_attribute("src")
+                or img.get_attribute("data-src")
+                or img.get_attribute("data-srcset")
+            )
+        except:
+            pass
+
 
     selling = safe_text(card, ".product-discountedPrice") or safe_text(card, ".product-price")
     mrp = safe_text(card, ".product-strike")
